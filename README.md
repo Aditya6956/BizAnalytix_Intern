@@ -22,13 +22,21 @@ Type sudo nano ~/.bashrc in your terminal.
 — Enter the environment paths at the end of your .bashrc file below:
 
 source /etc/environment
+
 export SPARK_HOME=/home/aditya/spark-3.3.0-bin-hadoop3
+
 export PATH=$PATH:$SPARK_HOME/bin
+
 export PYSPARK_PYTHON=/usr/local/bin/python3.7
+
 export PYSPARK_DRIVER_PYTHON=/usr/local/bin/python3.7
+
 #when running spark locally, it uses 2 cores, hence local[2]
+
 export PYSPARK_SUBMIT_ARGS="--master local[2] pyspark-shell"
+
 export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+
 export PATH=$PATH:$JAVA_HOME/jre/bin
 
 MAKE SURE TO CHANGE THE PATH OF SPARK HOME ACCORDING TO YOUR SYSTEM.
