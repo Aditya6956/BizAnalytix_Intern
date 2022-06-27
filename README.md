@@ -42,7 +42,7 @@ export PATH=$PATH:$JAVA_HOME/jre/bin
 MAKE SURE TO CHANGE THE PATH OF SPARK HOME ACCORDING TO YOUR SYSTEM.
 
 Hit ctrl + s to save your .bashrc file.
-Hit ctrl + xto exit your .bashrc file and go back to your terminal.
+Hit ctrl + x to exit your .bashrc file and go back to your terminal.
 Type source ~/.bashrc so Bash can re-read your .bashrc file.
 
 Close the terminal and open a new one..
