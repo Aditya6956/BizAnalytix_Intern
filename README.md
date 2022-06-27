@@ -12,8 +12,7 @@ Type nano /etc/environment into your terminal and enter below:
 
 JAVA_HOME="usr/lib/jvm/java-11-openjdk-amd64"
 
-Hit ctrl + s to save and ctrl + x to exit.
-Once in terminal typesource /etc/environment for Bash to re-read your /etc/environment file.
+Hit ctrl + s to save and ctrl + x to exit. Once, in terminal type source /etc/environment for Bash to re-read your /etc/environment file.
 
 Now, we Download & install Spark.
 Goto Link https://spark.apache.org/downloads.html and select "DOWNLOAD spark-3.3.0-bin-hadoop3.tgz" and install tgz file, extract it to the home folder by 
